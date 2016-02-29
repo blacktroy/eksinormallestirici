@@ -18,6 +18,9 @@ if(currentPage != undefined){
 
     //Sub-etha dugmesini geri getir
     $(".dropdown-menu").prepend("<li><a href='https://eksisozluk.com/sub-etha' target='_blank'>sub-etha</a></li>");
+    
+    //Content'in hemen ustundeki hayvani reklami sil
+    $('.ad-double-click').remove();
 
     var topicPageSize = 10;
 
